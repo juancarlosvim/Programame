@@ -6,7 +6,7 @@ int main()
 
     do{
 
-        printf("Introduce la hora en formato 24H: \n");
+        
         scanf("%d:%d", &h, &m);
         if(h==0 && m==0){
             break;
